@@ -4,15 +4,26 @@
 //a = -9 b = -3 -> max = -3
 
 
+//Console.WriteLine("Write a number : ");
+//Console.Write("a = ");
+//int a = int.Parse(Console.ReadLine());
+//Console.Write("b = ");
+//int b = int.Parse(Console.ReadLine());
+//int max;
+//max = a;
+//if ( b > max )
+//    max = b;
+//Console.Write("max = ");
+//Console.WriteLine(max);
+
+
 Console.WriteLine("Write a number : ");
 Console.Write("a = ");
 int a = int.Parse(Console.ReadLine());
 Console.Write("b = ");
 int b = int.Parse(Console.ReadLine());
-int max;
-max = a;
-if (max < b)
-    max = b;
 Console.Write("max = ");
-Console.WriteLine(max);
-
+if (a > b)
+    Console.WriteLine(a);
+else
+    Console.WriteLine(b);
